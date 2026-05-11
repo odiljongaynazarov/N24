@@ -26,6 +26,12 @@ img {
   height: auto;
 }
 
+/* OUTLINE STYLES */
+*:focus {
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
+
 /* BUTTON */
 .button {
   display: inline-block;
@@ -64,8 +70,6 @@ img {
 
 
 /* SITE-HEADER */
-.site-header {
-}
 
 /* SITE-HEADER-TOP */
 .site-header-top {
@@ -111,6 +115,22 @@ img {
 
 .currency-rates-type {
   color: #2959ce;
+}
+
+/* GLOBAL-SEARCH-FORM */
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: normal;
 }
 
 /* LANG-TOGGLE */
